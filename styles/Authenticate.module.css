@@ -1,0 +1,23 @@
+.pageContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f5f6f8;
+}
+
+.contentContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 500px;
+    border-radius: 8px;
+    display: grid;
+    align-content: space-around;
+
+    justify-items: center;
+    padding: 16px 32px 4px 32px;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 6px -1px, rgba(0, 0, 0, 0.06) 0 2px 4px -1px;
+    background-color: white;
+}
